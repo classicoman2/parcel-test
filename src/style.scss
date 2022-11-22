@@ -1,0 +1,157 @@
+	body {
+	    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 13px;
+	    max-width: 1000px;
+	    margin: auto;
+	}
+	
+	body>div,
+	body>nav,
+	header,
+	footer {
+	    border-bottom: 2px black dashed;
+	}
+	/* EXERCISE 1 */
+	
+	#ex1 {
+	    height: 120px;
+	    background-color: #a4e9ff;
+	    background-image: url(imatges/logo.png);
+	    background-repeat: no-repeat;
+	    background-size: auto 100%;
+	    width: 100%;
+	    box-sizing: border-box;
+	    span {
+	        padding-left: 40px;
+	    }
+	    >div {
+	        position: absolute;
+	        margin-left: 500px;
+	    }
+	    >.tag {
+	        position: absolute;
+	        top: 0px;
+	        left: 0px;
+	    }
+	}
+	/* EXERCISE 1.2 */
+	
+	nav {
+	    display: flex;
+	    ul {
+	        list-style-type: none;
+	        padding: 0;
+	        margin: 0;
+	        cursor: pointer;
+	        li {
+	            float: left;
+	            padding: 10px 20px;
+	            background-color: #4BD0FC;
+	            font-size: 1.3em;
+	            font-weight: bold;
+	            color: white;
+	            border-right: 1px white solid;
+	        }
+	    }
+	}
+	/* EXERCISE 2 */
+	
+	#ex2 {
+	    background-image: url(imatges/pattern.jpg);
+	    height: 100px;
+	}
+	/* EXERCISE 3 */
+	
+	#ex3 {
+	    height: 300px;
+	    overflow: hidden;
+	    >img {
+	        width: 1000px;
+	        margin-top: -90px;
+	    }
+	}
+	/* EXERCISE 4 */
+	
+	#ex4 {
+	    background-color: gainsboro;
+	    height: 250px;
+	    padding: 25px 0 25px 0;
+	    text-align: center;
+	    h2 {
+	        text-decoration: underline;
+	    }
+	}
+	
+	#ex4 table {
+	    margin-left: 25%;
+	    width: 50%;
+	    border: 1px solid black;
+	    border-collapse: collapse;
+	}
+	
+	th,
+	td {
+	    text-align: center;
+	    padding: 8px;
+	}
+	
+	th {
+	    font-size: 20px;
+	}
+	
+	tr:nth-child(even) {
+	    background-color: gray;
+	}
+	
+	tr:first-child {
+	    border-bottom: 5px solid black;
+	    background-color: aqua;
+	}
+	/* EXERCISE 5 */
+	
+	#ex5 {
+	    height: 300px;
+	    text-align: center;
+	    /* fonamental per a quadrar-ho tot */
+	    box-sizing: border-box;
+	    div {
+	        float: left;
+	        width: 250px;
+	        padding-top: 10px;
+	        border-right: 1px solid black;
+	        box-sizing: border-box;
+	    }
+	    div:first-child {
+	        border-left: 1px solid black;
+	    }
+	    img {
+	        width: 240px;
+	        opacity: 0.5;
+	        margin-bottom: 20px;
+	    }
+	    span {
+	        font-family: "Arial";
+	        font-size: 20px;
+	        font-weight: bold;
+	    }
+	}
+	/********** EXERCISE 6 **********/
+	
+	#ex6 {
+	    background-color: black;
+	    color: white;
+	    height: 100px;
+	    position: relative;
+	    span {
+	        #footer-left {
+	            position: absolute;
+	            left: 10px;
+	            top: 10px;
+	        }
+	    }
+	    #footer-right {
+	        position: absolute;
+	        right: 20px;
+	        bottom: 10px;
+	    }
+	}
